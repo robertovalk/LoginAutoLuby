@@ -1,0 +1,258 @@
+.loginCabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalhoImagem {
+    width: 114px;
+    padding-top: 101px;
+}
+
+.cabecalhoNomeMobile{
+    color: #3C3C3C;
+}
+
+.tituloLaranja{
+    color: #F54A48;
+}
+
+.cabecalhoNome{
+    display: none;
+}
+
+.cabecalhoNomeMobile{
+   padding-top: 39px;
+    
+}
+
+.apresentacaoTexto{
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #A2A2A2;
+    text-align: center;
+    padding-bottom: 71px;
+}
+
+.conteudoLoginDireito {
+    display: none;
+}
+
+.loginImagem {
+    display: none;
+}
+
+.apresentacaoTitulo {
+    display: none;
+}
+
+.login {
+    display: flex;
+    flex-direction: column; 
+}
+
+.formsLogin {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    
+}
+
+.labelPadrao {
+    text-align: left;
+    margin-bottom: 6px;
+    color: #7C7C7C;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.inputPadraoEmail, .inputPadraoSenha {
+    width: 337px;
+    height: 36px;
+    padding: 15px;
+    margin-bottom: 19px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    outline: none;
+}
+
+.inputPadraoEmail::placeholder{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.inputPadraoSenha::placeholder{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.checkBoxLink {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.loginCheckBox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+}
+
+.checkbox {
+    margin-right: 3px;
+    height: 24px;
+    width: 24px;
+    accent-color: #F54A48;
+}
+
+.labelCheckBox{
+    color: #F54A48;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.esqueceuSenha {
+    text-decoration: none;
+    color: #F54A48;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.submit {
+    width: 337px;
+    height: 37px;
+    margin: 0px auto;
+    margin-top: 34px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F54A48;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: transparent;
+    outline: none;
+}
+
+.criarConta {
+    text-align: center;
+    padding: 40px;
+}
+
+.criarContaParagrafo {
+    color: #7C7C7C;
+}
+
+.criarContaLink {
+    color: #F54A48;
+    text-decoration: none;
+}
+
+/*conteudo web*/
+
+@media(min-width:1024px) {
+
+    .conteudoLogin {
+        display: flex;
+    }
+
+    .conteudoLoginEsquerdo{
+        width: 50%;
+        height: 100vh;
+    }
+
+    .loginCabecalho {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding-top: 70px;
+        margin-left: 30px;
+        max-width: 1074px;
+    }
+
+    .cabecalhoImagem {
+        width: 38px;
+        margin-right: 22px;
+        max-width: 114px;
+        padding: unset;
+    }
+
+    .cabecalhoNome {
+        display: block;
+        color: #F54A48;
+        font-weight: 600;
+        font-size: 38px;
+    }
+
+    .cabecalhoNomeMobile, .tituloLaranja{
+        display: none;
+    }
+
+    .textoApresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: 18%;
+    }
+    
+
+    .apresentacaoTexto {
+        padding-top: 6px;
+        padding-right: 53px;
+    }
+
+    .apresentacaoTitulo {
+        display: block;
+        padding-top: 178px;
+    }
+
+    .inputPadraoEmail, .inputPadraoSenha {
+        width: 425px;
+        height: 36px;
+    }
+
+    .checkBoxLink {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .submit {
+        width: 425px;
+        height: 36px;
+        cursor: pointer;
+        transition: all 500ms;
+    }
+
+    .submit:hover{
+        box-shadow: 1px 1px 6px #F54A48;
+    }
+
+    .criarConta {
+        margin-right: 150px;
+    }
+
+    .conteudoLoginDireito {
+        display: block;
+        width: 50%;
+        max-width: 977px;
+
+    }   
+
+    .loginImagem {
+        display: block;
+        width: 977px;
+        margin-bottom: -7px;
+    }
+    
+}

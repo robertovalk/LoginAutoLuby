@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>AutoLuby - Login</title>
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/login.css">
+</head>
+<body>
+    <section class="conteudoLogin">
+        <div class="conteudoLoginEsquerdo conteudoAcima">
+            <header class="loginCabecalho">
+                <img class="cabecalhoImagem" src="./imagens/Standard Collection 12.svg">
+                <h1 class="cabecalhoNome">AutoLuby</h1>
+                <h1 class="cabecalhoNomeMobile">Você está na <spam class="tituloLaranja">AutoLuby</spam></h1>
+            </header>
+            <div class="textoApresentacao">
+                <h2 class="apresentacaoTitulo">Bem-vindo à AutoLuby</h2>
+                <p class="apresentacaoTexto">Faça o login para acessar sua conta.</p>
+            </div>
+            <div class="login">
+                <form class="formsLogin">
+
+                    <label class="labelPadrao">Endereço de email</label>
+                    <input class="inputPadraoEmail" type="email" required placeholder="@mail.com">
+
+                    <label class="labelPadrao" class="labelPadrao">Senha</label>
+                    <input class="inputPadraoSenha" type="password" required placeholder="senha">
+
+                </form>
+
+                <div class="checkBoxLink">
+                    <fieldset class="loginCheckBox">
+                        <input class="checkbox" type="checkbox" id="Lembrar minha senha" name="Lembrar minha senha" checked>
+                        <label class="labelCheckBox" for="Lembrar minha senha">Lembrar minha senha</label>
+                    </fieldset>
+
+                    <div>
+                        <a class="esqueceuSenha" href="#">Esqueceu a senha?</a>
+                    </div>
+                </div>
+               
+
+                <input class="submit" type="submit" value="Entrar">
+
+                <div class="criarConta">
+                    <p class="criarContaParagrafo">Ainda não tem conta? <a class="criarContaLink" href="#">Criar Conta</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteudoLoginDireito conteudoAbaixo">
+            <img class="loginImagem" src="./imagens/unsplash_QLDsnAtuyQU.svg">
+        </div>
+
+    </section>
+</body>
+</html>
